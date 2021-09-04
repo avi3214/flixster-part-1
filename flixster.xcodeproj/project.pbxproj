@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F35AEE6DA05ADDCE035CD35 /* Pods_flixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C815004EE8736D4E036E142D /* Pods_flixster.framework */; };
+		80331C89B58BD7C1DED321CD /* Pods_flixsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7976ED143545A3179104F5 /* Pods_flixsterTests.framework */; };
+		A870F723E9237D640A7AC77E /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F82EADBF7224727085AB46A /* Pods_flixster_flixsterUITests.framework */; };
+		C799C6CD26DAF0E90041A0D8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C799C6CC26DAF0E90041A0D8 /* MovieCell.swift */; };
+		C79E4BE026DC14F60084840B /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C79E4BDF26DC14F60084840B /* AlamofireImage */; };
 		C7AABA7626D9F22900E1D2ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABA7526D9F22900E1D2ED /* AppDelegate.swift */; };
 		C7AABA7826D9F22900E1D2ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABA7726D9F22900E1D2ED /* SceneDelegate.swift */; };
-		C7AABA7A26D9F22900E1D2ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABA7926D9F22900E1D2ED /* ViewController.swift */; };
 		C7AABA7D26D9F22900E1D2ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AABA7B26D9F22900E1D2ED /* Main.storyboard */; };
 		C7AABA7F26D9F22A00E1D2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AABA7E26D9F22A00E1D2ED /* Assets.xcassets */; };
 		C7AABA8226D9F22A00E1D2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AABA8026D9F22A00E1D2ED /* LaunchScreen.storyboard */; };
 		C7AABA8D26D9F22B00E1D2ED /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABA8C26D9F22B00E1D2ED /* flixsterTests.swift */; };
 		C7AABA9826D9F22B00E1D2ED /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABA9726D9F22B00E1D2ED /* flixsterUITests.swift */; };
+		C7AABAA626D9F47500E1D2ED /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AABAA526D9F47500E1D2ED /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F82EADBF7224727085AB46A /* Pods_flixster_flixsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster_flixsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F8FA7022253D6FC9653547 /* Pods-flixster-flixsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.release.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BB6355EF19B999FFDB3AEF4 /* Pods-flixster-flixsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster-flixsterUITests.debug.xcconfig"; path = "Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C789F9D000249D767F8A5B5 /* Pods-flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.debug.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.debug.xcconfig"; sourceTree = "<group>"; };
+		9C7976ED143545A3179104F5 /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C799C6CC26DAF0E90041A0D8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		C7AABA7226D9F22900E1D2ED /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AABA7526D9F22900E1D2ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7AABA7726D9F22900E1D2ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7AABA7926D9F22900E1D2ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7AABA7C26D9F22900E1D2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7AABA7E26D9F22A00E1D2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7AABA8126D9F22A00E1D2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,11 @@
 		C7AABA9326D9F22B00E1D2ED /* flixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AABA9726D9F22B00E1D2ED /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		C7AABA9926D9F22B00E1D2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AABAA526D9F47500E1D2ED /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		C815004EE8736D4E036E142D /* Pods_flixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C0D5494D20F45FB936E2EE /* Pods-flixsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.debug.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97900699DFE8DF15887B4E4 /* Pods-flixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixsterTests.release.xcconfig"; path = "Target Support Files/Pods-flixsterTests/Pods-flixsterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9AF5D680F4886BA132FE97A /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E4BE026DC14F60084840B /* AlamofireImage in Frameworks */,
+				4F35AEE6DA05ADDCE035CD35 /* Pods_flixster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80331C89B58BD7C1DED321CD /* Pods_flixsterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A870F723E9237D640A7AC77E /* Pods_flixster_flixsterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79773FC63862B19E2F11B14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C815004EE8736D4E036E142D /* Pods_flixster.framework */,
+				5F82EADBF7224727085AB46A /* Pods_flixster_flixsterUITests.framework */,
+				9C7976ED143545A3179104F5 /* Pods_flixsterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7AABA6926D9F22900E1D2ED = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				C7AABA8B26D9F22B00E1D2ED /* flixsterTests */,
 				C7AABA9626D9F22B00E1D2ED /* flixsterUITests */,
 				C7AABA7326D9F22900E1D2ED /* Products */,
+				F7D86D136CE4609C870FE137 /* Pods */,
+				79773FC63862B19E2F11B14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +132,12 @@
 			children = (
 				C7AABA7526D9F22900E1D2ED /* AppDelegate.swift */,
 				C7AABA7726D9F22900E1D2ED /* SceneDelegate.swift */,
-				C7AABA7926D9F22900E1D2ED /* ViewController.swift */,
 				C7AABA7B26D9F22900E1D2ED /* Main.storyboard */,
+				C799C6CC26DAF0E90041A0D8 /* MovieCell.swift */,
 				C7AABA7E26D9F22A00E1D2ED /* Assets.xcassets */,
 				C7AABA8026D9F22A00E1D2ED /* LaunchScreen.storyboard */,
 				C7AABA8326D9F22A00E1D2ED /* Info.plist */,
+				C7AABAA526D9F47500E1D2ED /* MoviesViewController.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -128,6 +160,19 @@
 			path = flixsterUITests;
 			sourceTree = "<group>";
 		};
+		F7D86D136CE4609C870FE137 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C789F9D000249D767F8A5B5 /* Pods-flixster.debug.xcconfig */,
+				D9AF5D680F4886BA132FE97A /* Pods-flixster.release.xcconfig */,
+				7BB6355EF19B999FFDB3AEF4 /* Pods-flixster-flixsterUITests.debug.xcconfig */,
+				60F8FA7022253D6FC9653547 /* Pods-flixster-flixsterUITests.release.xcconfig */,
+				D2C0D5494D20F45FB936E2EE /* Pods-flixsterTests.debug.xcconfig */,
+				D97900699DFE8DF15887B4E4 /* Pods-flixsterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +180,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AABA9C26D9F22B00E1D2ED /* Build configuration list for PBXNativeTarget "flixster" */;
 			buildPhases = (
+				B445431522D956B6ECD225E7 /* [CP] Check Pods Manifest.lock */,
 				C7AABA6E26D9F22900E1D2ED /* Sources */,
 				C7AABA6F26D9F22900E1D2ED /* Frameworks */,
 				C7AABA7026D9F22900E1D2ED /* Resources */,
+				A106A8E9A9058B48F3861284 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = flixster;
+			packageProductDependencies = (
+				C79E4BDF26DC14F60084840B /* AlamofireImage */,
+			);
 			productName = flixster;
 			productReference = C7AABA7226D9F22900E1D2ED /* flixster.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AABA9F26D9F22B00E1D2ED /* Build configuration list for PBXNativeTarget "flixsterTests" */;
 			buildPhases = (
+				740FE979AB3C36863C6A1058 /* [CP] Check Pods Manifest.lock */,
 				C7AABA8426D9F22B00E1D2ED /* Sources */,
 				C7AABA8526D9F22B00E1D2ED /* Frameworks */,
 				C7AABA8626D9F22B00E1D2ED /* Resources */,
@@ -170,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AABAA226D9F22B00E1D2ED /* Build configuration list for PBXNativeTarget "flixsterUITests" */;
 			buildPhases = (
+				AE6C6B1ECB3D0A78E0F7AD52 /* [CP] Check Pods Manifest.lock */,
 				C7AABA8F26D9F22B00E1D2ED /* Sources */,
 				C7AABA9026D9F22B00E1D2ED /* Frameworks */,
 				C7AABA9126D9F22B00E1D2ED /* Resources */,
+				256E9DC9E6A504B353DECC97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +268,9 @@
 				Base,
 			);
 			mainGroup = C7AABA6926D9F22900E1D2ED;
+			packageReferences = (
+				C79E4BDE26DC14F60084840B /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = C7AABA7326D9F22900E1D2ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +309,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		256E9DC9E6A504B353DECC97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flixster-flixsterUITests/Pods-flixster-flixsterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740FE979AB3C36863C6A1058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flixsterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A106A8E9A9058B48F3861284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flixster/Pods-flixster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flixster/Pods-flixster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flixster/Pods-flixster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6C6B1ECB3D0A78E0F7AD52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flixster-flixsterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B445431522D956B6ECD225E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flixster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7AABA6E26D9F22900E1D2ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AABA7A26D9F22900E1D2ED /* ViewController.swift in Sources */,
 				C7AABA7626D9F22900E1D2ED /* AppDelegate.swift in Sources */,
 				C7AABA7826D9F22900E1D2ED /* SceneDelegate.swift in Sources */,
+				C799C6CD26DAF0E90041A0D8 /* MovieCell.swift in Sources */,
+				C7AABAA626D9F47500E1D2ED /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		C7AABA9D26D9F22B00E1D2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C789F9D000249D767F8A5B5 /* Pods-flixster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +613,7 @@
 		};
 		C7AABA9E26D9F22B00E1D2ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9AF5D680F4886BA132FE97A /* Pods-flixster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +633,7 @@
 		};
 		C7AABAA026D9F22B00E1D2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C0D5494D20F45FB936E2EE /* Pods-flixsterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		C7AABAA126D9F22B00E1D2ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97900699DFE8DF15887B4E4 /* Pods-flixsterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		C7AABAA326D9F22B00E1D2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB6355EF19B999FFDB3AEF4 /* Pods-flixster-flixsterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		C7AABAA426D9F22B00E1D2ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F8FA7022253D6FC9653547 /* Pods-flixster-flixsterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +759,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C79E4BDE26DC14F60084840B /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C79E4BDF26DC14F60084840B /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79E4BDE26DC14F60084840B /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7AABA6A26D9F22900E1D2ED /* Project object */;
 }
