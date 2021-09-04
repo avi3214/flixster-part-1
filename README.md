@@ -44,10 +44,7 @@ Describe any challenges encountered while building the app. Paste the README tem
 ### App Walkthrough GIF
 
 
-
-
-<img src="https://im2.ezgif.com/tmp/ezgif-2-2c1e4f6fe43e.gif" width=250><br>
-
+![](https://i.imgur.com/b1nr1dh.gif)
 
 
 ### Notes
