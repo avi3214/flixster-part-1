@@ -43,7 +43,7 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthrough GIF
 
-![](https://i.imgur.com/5KUDboh.gif)
+<img src="http://g.recordit.co/6PrdFXFnUK.gif" width=250><br>
 
 
 
