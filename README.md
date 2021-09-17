@@ -11,7 +11,7 @@
 - [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
-<img src="http://g.recordit.co/Fdbcrk3t6t.gif" width=250><br>
+<img src="http://g.recordit.co/wZ1gOsDx5W.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
